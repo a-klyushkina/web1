@@ -1,0 +1,35 @@
+@media only screen and (max-width: 480px) {
+    /* Стиль для отображения в браузере */
+
+    body {
+        font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
+        font-size: 0.9em; /* Размер шрифта */
+        color: #000080; /* Цвет текста */
+        background: #6d3087;
+
+    }
+
+    h1 {
+        background: #3064f7; /* Цвет фона под текстом */
+        color: #e2e752;
+        margin: 0;
+        font-family: "Nautilus Pompilius";
+
+    }
+
+    h2 {
+        color: #ff926e; /* Цвет текста */
+        margin: 0; /* Убираем отступы */
+    }
+
+    p {
+        margin-top: 0.5em; /* Отступ сверху */
+        background: antiquewhite;
+    }
+
+    .min {
+        width: 74%;
+        margin-left:13%;
+        margin-top: 10%;
+    }
+}
