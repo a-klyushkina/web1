@@ -1,4 +1,4 @@
-@media only screen and (max-width: 480px) {
+@media only screen and (min-device-width : 320px) and (max-width: 480px) {
     /* Стиль для отображения в браузере */
 
     body {
@@ -26,10 +26,175 @@
         margin-top: 0.5em; /* Отступ сверху */
         background: antiquewhite;
     }
+    .h2_class{
+        width: 100%;
+        float: left;
+    }
 
-    .min {
+    .h2_1_class{
+        width: 100%;
+        float: right;
+        background: antiquewhite;
+        color: navy;
+    }
+    .main {
         width: 74%;
         margin-left:13%;
         margin-top: 10%;
     }
+    .main1 {
+        width: 74%;
+        margin-left:13%;
+        margin-top: 10%;
+    }
+    .block1 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        float: left;
+    }
+    .block2{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 4%;
+        float: left;
+    }
+
+    .sale{
+        margin-top: 4%;
+    }
+}
+
+@media only screen and (min-width : 1224px){
+    body {
+        font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
+        font-size: 0.9em; /* Размер шрифта */
+        color: #000080; /* Цвет текста */
+        background: #6d3087;
+
+    }
+
+    h1 {
+        background: #3064f7; /* Цвет фона под текстом */
+        color: #e2e752;
+        margin: 0;
+        font-family: "Nautilus Pompilius";
+
+    }
+
+    .h2_class{
+            width: 50%;
+            float: left;
+         }
+
+    .h2_1_class{
+        width: 50%;
+        float: right;
+        background: antiquewhite;
+        color: navy;
+    }
+
+    h2 {
+        color: navajowhite; /* Цвет текста */
+        margin: 0; /* Убираем отступы */
+        background: darksalmon;
+    }
+
+    .main {
+        width: 40%;
+        margin-left:5%;
+        margin-right:3%;
+        margin-top: 10%;
+        }
+
+    .main1 {
+        width: 90%;
+        margin-right:10%;
+        margin-left:3%;
+        margin-top: 10%;
+    }
+
+    .block1 {
+        width: 70%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        float: left;
+        }
+
+    .block2{
+        width: 30%;
+        margin-left: 0;
+        margin-top: 4%;
+        float: left;
+
+    }
+}
+
+@media only screen and (min-width : 481px) and (max-width : 1224px) {
+    body {
+        font-family: Arial, Verdana, sans-serif; /* Рубленый шрифт */
+        font-size: 0.9em; /* Размер шрифта */
+        color: #000080; /* Цвет текста */
+        background: #6d3087;
+
+    }
+
+    h1 {
+        background: #3064f7; /* Цвет фона под текстом */
+        color: #e2e752;
+        margin: 0;
+        font-family: "Nautilus Pompilius";
+
+    }
+
+    .h2_class{
+        width: 50%;
+        float: left;
+    }
+
+    .h2_1_class{
+        width: 50%;
+        float: right;
+        background: antiquewhite;
+        color: navy;
+    }
+
+    h2 {
+        color: navajowhite; /* Цвет текста */
+        margin: 0; /* Убираем отступы */
+        background: darksalmon;
+    }
+
+    .main {
+        width: 40%;
+        margin-left:5%;
+        margin-right:3%;
+        margin-top: 10%;
+    }
+
+    .main1 {
+        width: 40%;
+        margin-right:3%;
+        margin-left:5%;
+        margin-top: 10%;
+    }
+
+    .block1 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        float: left;
+    }
+
+    .block2{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        float: left;
+
+    }
+
 }
